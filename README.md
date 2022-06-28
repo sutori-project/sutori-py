@@ -49,7 +49,7 @@ Here is an example of a basic sutori XML document:
 ```
 
 Sutori closely mimics the way [CYOA (choose your own adventure)](https://en.wikipedia.org/wiki/Gamebook)
-Gamebook's work, with the small difference is that at the end of each moment, the
+Gamebooks work, with the small difference is that at the end of each moment, the
 user is asked what to do next.
 
 
@@ -59,7 +59,7 @@ user is asked what to do next.
 - [sutori-studio](https://github.com/sutori-project/sutori-studio) - An IDE for editing Sutori XML files.
 - [sutori-game](https://github.com/sutori-project/sutori-game) - A template for creating basic visual novels with sutori-js.
 - [sutori-js](https://github.com/sutori-project/sutori-js) - The JavaScript version of Sutori engine.
-- [sutori-js](https://github.com/sutori-project/sutori-cs) - The .NET Standard 2.0 version of Sutori engine.
+- [sutori-cs](https://github.com/sutori-project/sutori-cs) - The .NET Standard 2.0 version of Sutori engine.
 
 
 
