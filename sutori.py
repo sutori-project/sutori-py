@@ -123,8 +123,8 @@ class SutoriMoment(object):
 			if _element.nodeType is _element.ELEMENT_NODE:
 				if _element.tagName == 'text':
 					_elements.append(SutoriElementText(_element))
-				elif _element.tagName == 'image':
-					_elements.append(SutoriElementImage(_element))
+				elif _element.tagName == 'media':
+					_elements.append(SutoriElementMedia(_element))
 				elif _element.tagName == 'option':
 					_elements.append(SutoriElementOption(_element))
 		self.elements = _elements
@@ -181,7 +181,7 @@ class SutoriElementOption(SutoriElement):
 
 
 
-class SutoriElementImage(SutoriElement):
+class SutoriElementMedia(SutoriElement):
 	actor = ""
 	used_for = None
 	resource_id = ""
